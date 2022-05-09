@@ -76,16 +76,4 @@ h2 {
   color: white;
 }
 
-.button3 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-  width: 350px;
-}
-
-.button3:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
 

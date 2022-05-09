@@ -1,0 +1,38 @@
+<html>
+    <h1> Quick! Help Lachlan by looking at the question below and answer the following code: </h1>
+    <pre class= "javaProblem3">
+        import java.util.Scanner;
+        public class MyClass {
+            public static void main(String args[]) {
+                Scanner scnr = new Scanner(System.in);
+                char findChar= scnr.next().charAt(0);
+                String userInput= scnr.nextLine();
+                int countChar=0;
+                int i;
+                
+                for(i=0; i < userInput.length(); i++) {
+                    if (userInput.charAt(i) == findChar) {
+                        countChar++;
+                    }
+                    else {
+                    }
+                }
+                
+                if (countChar <= 1 ) {
+                System.out.println(countChar + " " + findChar + "in " + userInput);
+                }
+                else {
+                System.out.println(countChar + " " + findChar + "\'s in"+ " \"" + userInput + "\"");
+                }
+
+     }
+    }
+
+    </pre>
+    <p>If the user inputs the following: 
+        n i like chicken nugget
+ 
+        What is outputted?
+     </p>
+
+</html>

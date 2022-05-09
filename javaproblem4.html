@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link rel="stylesheet" href="javaproblem4.css">
+    <h1>Quick! Help Lachlan by looking at the code and answering the question!</h1>
+</head>
+
+<body>
+    <pre class="codeProblem">
+        import java.util.Scanner;
+        public class MyClass {
+            public static void main(String args[]) {
+                    
+                Scanner scnr = new Scanner(System.in);
+                int userNum;
+                int maxNum;
+
+                userNum = scnr.nextInt();
+                maxNum = userNum;
+
+                while (userNum > 0) {
+                    if (userNum > maxNum) {
+                        maxNum = userNum;
+                    }
+                    userNum = scnr.nextInt();
+
+                }
+            System.out.print("Maximum number= " + maxNum);
+
+              
+                
+            }
+        }
+        
+    </pre>
+
+    <div class="problemQuestion"> 
+        If the user input is:
+        <br>
+        <br>
+        10 11 17 18 19 20 1 0
+        <br>
+        <br>
+        What is the output of the code?
+    </div>
+
+    <div class="problemAnswer">
+        <a href="incorrectAnswer.html" class="button button1">18</a> 
+
+        <a href="incorrectAnswer.html" class="button button2">19</a>
+
+        <a href="correctAnswer1.html" class="button button2">20</a>
+
+        <a href="incorrectAnswer.html" class="button button2">0</a>
+
+
+
+    </div>
+    
+</body>
+
+
+
+
+</html>

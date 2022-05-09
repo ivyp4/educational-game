@@ -1,31 +1,32 @@
-body {
-  background: silver;
-}
-  
 h1 {
-  color: white;
-  margin-left: 20px;
-  font-family: "Times New Roman", Times, serif;
-  background-color: darkgrey;
-  border-radius: 25px; 
-  text-align: center;
-  font-size: 40px;
-}
-h2 {
-  font-size: 30px;
-    font-family: "Lucida Console", monospace;
+    color: white;
+    margin-left: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: darkgrey;
+    border-radius: 25px; 
     text-align: center;
-    line-height: 25px;
-    padding: 20px;
-    margin: 50px;
+    font-size: 40px;
+  }
 
-}
-.column {
-  float: left;
-  width: 30%;
-  padding: 0 10px;
+  body {
+    background: silver;
 }
 
+.codeProblem {
+    font-size: larger;
+}
+
+.problemQuestion {
+  font-size: 20px;
+  font-family: "Lucida Console", monospace;
+  background-color: darkgrey;
+  border-radius: 5px; 
+
+}
+
+.problemAnswer {
+  display: flex
+}
 
 .button {
   background-color: #4CAF50;
@@ -39,14 +40,7 @@ h2 {
   font-family: "Lucida Console", monospace;
   margin: 8px 4px;
   cursor: pointer;
-}
-
-.flex-parent{
-  display: flex;
-}
-
-.jc-center {
-  justify-content: center;
+  width: 150px
 }
 
 .button1 {
@@ -54,7 +48,7 @@ h2 {
   color: black; 
   border: 2px solid #4CAF50;
   float: left;
-  width: 350px;
+  width: 200px;
 }
 
 .button1:hover {
@@ -66,9 +60,6 @@ h2 {
   background-color: white; 
   color: black; 
   border: 2px solid #4CAF50;
-  width: 350px;
-  
-
 }
 
 .button2:hover {
@@ -76,4 +67,14 @@ h2 {
   color: white;
 }
 
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 200px;
+}
 
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}

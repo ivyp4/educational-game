@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link rel="stylesheet" href="javaproblem1.css">
+    <h1>Quick! Help Lachlan by looking at the code and answering the question!</h1>
+</head>
+
+<body>
+    <pre class="codeProblem">
+        import java.util.Scanner;
+        public class MyClass {
+            public static void main(String args[]) {
+                    
+                Scanner scnr = new Scanner(System.in);
+                int numPoints;
+                int playRate;
+
+                playRate = 60;
+                numPoints = scnr.nextInt();
+
+                if (numPoints >= 50) {
+                    System.out.println("Congrats you're a pro!");
+                    playRate = playRate / 2;
+                    System.out.println("Your fee is $" + playRate + ".");
+                }
+
+                else if (numPoints >= 40) {
+                    System.out.println("You're decent");
+                    playRate = playRate - 10;
+                    System.out.println("Your fee is $" + playRate + ".");
+                }
+
+                else {
+                    System.out.print("Your fee is  $" + playRate) + ".";
+                }
+            }
+        }
+        
+    </pre>
+
+    <div class="problemQuestion"> 
+        If the user input is:
+        <br>
+        <br>
+        50
+        <br>
+        <br>
+        What is the value of 'playRate'?
+    </div>
+
+    <div class="problemAnswer">
+        <a href="correctAnswer1.html" class="button button1">$30</a> 
+
+        <a href="incorrectAnswer.html" class="button button2">$50</a>
+
+        <a href="incorrectAnswer.html" class="button button2">$60</a>
+
+
+    </div>
+    
+</body>
+
+
+
+
+</html>

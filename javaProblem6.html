@@ -1,0 +1,46 @@
+<html>
+    <link rel="stylesheet" href="javaProblem6.css">
+    <h1> Quick! Help Lachlan by looking at the question below and answer the following code: </h1>
+    <pre class="javaProblem2"> 
+        import java.util.Scanner;
+        public class MyClass {
+            public static void main(String args[]) {
+                Scanner scnr = new Scanner(System.in);
+                int user[] = new int [8];
+                int i; 
+                
+                System.out.println("Enter 8 numbers: ")
+                for (i=0; i < user.length; i++) {
+                    user[i] = scnr.nextInt();
+                    if (user[i]%2 == 0) {
+                        System.out.print(user[i] + " ");
+                    }
+                    else {
+                    }
+                }
+            
+     }
+    }
+    <pre>
+    <div class="problemQuestion">
+    <p>If the user inputs the following: 
+
+       25 72 35 12 66 99 43 81
+
+       What sequence is outputted?
+    </p>
+    </div>
+    <div class="problemAnswer">
+        <a href="correctAnswer2.html" class="button button1">72 12 66</a> 
+
+        <a href="incorrectAnswer.html" class="button button2">66 12 72</a>
+
+        <a href="incorrectAnswer.html" class="button button3">25 35 66 43</a>
+
+        <a href="incorrectAnswer.html" class="button button4">72, 12, 66</a>
+
+        <a href="incorrectAnswer.html" class="button button5">66, 12, 72</a>
+
+
+    </div>
+</html>
